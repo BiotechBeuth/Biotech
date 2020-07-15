@@ -1,0 +1,24 @@
+Package: Biotech
+Title: Diverse Applications for Biotechnologies
+Version: 0.0.0.9001
+Authors@R: 
+    person(given = "Utz",
+           family = "Rieger",
+           role = c("aut", "cre"),
+           email = "s71564@beuth-hochschule.de",
+           comment = structure("0000-0002-1524-4759"))
+Description: Software for Biotechnology students with the aim to popularise the usage of R as great tool for data-handling and manipulation.
+Depends: R (>= 3.1.0)
+Author: Utz Rieger <s71564@beuth-hochschule.de>
+Maintainer: Utz Rieger <s71564@beuth-hochschule.de>
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+RoxygenNote: 7.1.1
+Imports: 
+    ggplot2,
+    magrittr,
+    dr4pl, 
+    tidyverse
